@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Moykm</title>
+  <defs>
+    <clipPath id="tile">
+      <rect x="1" y="1" width="510" height="510" rx="117"/>
+    </clipPath>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#30251f"/>
+      <stop offset=".37" stop-color="#171413"/>
+      <stop offset=".74" stop-color="#100f11"/>
+      <stop offset="1" stop-color="#251c1b"/>
+    </linearGradient>
+    <radialGradient id="halo" gradientUnits="userSpaceOnUse" cx="247" cy="236" r="246">
+      <stop stop-color="#714932" stop-opacity=".43"/>
+      <stop offset=".56" stop-color="#553423" stop-opacity=".21"/>
+      <stop offset="1" stop-color="#261810" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ribbon" gradientUnits="userSpaceOnUse" x1="72" y1="64" x2="116" y2="120">
+      <stop stop-color="#604c3c" stop-opacity=".1"/>
+      <stop offset=".57" stop-color="#9b5e34" stop-opacity=".4"/>
+      <stop offset=".86" stop-color="#ffc17e" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#ffdaa1" stop-opacity=".34"/>
+    </linearGradient>
+    <linearGradient id="ribbon-edge" gradientUnits="userSpaceOnUse" x1="0" y1="176" x2="205" y2="14">
+      <stop stop-color="#925630" stop-opacity=".19"/>
+      <stop offset=".44" stop-color="#ffcb8c" stop-opacity=".66"/>
+      <stop offset="1" stop-color="#975b36" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f0bc90" stop-opacity=".61"/>
+      <stop offset=".33" stop-color="#a28170" stop-opacity=".20"/>
+      <stop offset=".69" stop-color="#765847" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#ad795a" stop-opacity=".34"/>
+    </linearGradient>
+    <linearGradient id="arc-upper" gradientUnits="userSpaceOnUse" x1="104" y1="184" x2="404" y2="183">
+      <stop stop-color="#654327" stop-opacity=".15"/>
+      <stop offset=".34" stop-color="#c58b56"/>
+      <stop offset=".65" stop-color="#ffd293"/>
+      <stop offset="1" stop-color="#a56a40"/>
+    </linearGradient>
+    <linearGradient id="arc-lower" gradientUnits="userSpaceOnUse" x1="94" y1="307" x2="336" y2="405">
+      <stop stop-color="#a16a43"/>
+      <stop offset=".42" stop-color="#ffc481"/>
+      <stop offset=".71" stop-color="#cd905c"/>
+      <stop offset="1" stop-color="#583927" stop-opacity=".11"/>
+    </linearGradient>
+    <linearGradient id="wheel" gradientUnits="userSpaceOnUse" x1="130" y1="309" x2="151" y2="361">
+      <stop stop-color="#8e5a3e"/>
+      <stop offset="1" stop-color="#d89f73"/>
+    </linearGradient>
+    <linearGradient id="body" gradientUnits="userSpaceOnUse" x1="179" y1="165" x2="307" y2="350">
+      <stop stop-color="#fff4df"/>
+      <stop offset=".33" stop-color="#f4dab7"/>
+      <stop offset=".61" stop-color="#e7b68d"/>
+      <stop offset=".83" stop-color="#bd8969"/>
+      <stop offset="1" stop-color="#8b604d"/>
+    </linearGradient>
+    <linearGradient id="body-edge" gradientUnits="userSpaceOnUse" x1="172" y1="159" x2="340" y2="341">
+      <stop stop-color="#fff3dd"/>
+      <stop offset=".53" stop-color="#ecc4a0"/>
+      <stop offset="1" stop-color="#be8c6f"/>
+    </linearGradient>
+    <linearGradient id="glass" gradientUnits="userSpaceOnUse" x1="230" y1="171" x2="253" y2="238">
+      <stop stop-color="#15161a"/>
+      <stop offset=".6" stop-color="#302421"/>
+      <stop offset="1" stop-color="#4c342a"/>
+    </linearGradient>
+    <linearGradient id="glass-reflection" gradientUnits="userSpaceOnUse" x1="201" y1="180" x2="275" y2="231">
+      <stop stop-color="#f8dbc1" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#f8dbc1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hood" gradientUnits="userSpaceOnUse" x1="256" y1="231" x2="256" y2="262">
+      <stop stop-color="#fff0d5" stop-opacity=".86"/>
+      <stop offset="1" stop-color="#ffddbb" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lamp" gradientUnits="userSpaceOnUse" x1="139" y1="275" x2="208" y2="285">
+      <stop stop-color="#fff3d8"/>
+      <stop offset="1" stop-color="#ffcb89"/>
+    </linearGradient>
+    <linearGradient id="intake" gradientUnits="userSpaceOnUse" x1="256" y1="310" x2="256" y2="329">
+      <stop stop-color="#2e211e"/>
+      <stop offset="1" stop-color="#4c3027"/>
+    </linearGradient>
+    <path id="ribbon-shape" d="M-22 199C58 186 106 109 154 64C183 36 217 16 265-8H-22Z"/>
+    <path id="ribbon-line" d="M-22 199C58 186 106 109 154 64C183 36 217 16 265-8"/>
+    <path id="wheel-shape" d="M128 312h43v32c0 11-7 17-16 17h-11c-10 0-16-7-16-17z"/>
+    <path id="lamp-housing" d="M136 269c2-5 8-6 15-5l43 7c7 1 11 4 15 9l7 10h-60c-15 0-23-8-20-21Z"/>
+    <path id="lamp-line" d="M148 273l44 7c4 1 7 2 9 6h-45c-7 0-11-4-8-13Z"/>
+  </defs>
+
+  <g clip-path="url(#tile)">
+    <rect width="512" height="512" fill="url(#base)"/>
+    <rect width="512" height="512" fill="url(#halo)"/>
+
+    <g>
+      <use href="#ribbon-shape" fill="url(#ribbon)"/>
+      <use href="#ribbon-line" fill="none" stroke="url(#ribbon-edge)" stroke-width="1.5"/>
+    </g>
+    <g transform="rotate(180 256 256)" opacity=".81">
+      <use href="#ribbon-shape" fill="url(#ribbon)"/>
+      <use href="#ribbon-line" fill="none" stroke="url(#ribbon-edge)" stroke-width="1.5"/>
+    </g>
+
+    <g fill="none" stroke-width="9" stroke-linecap="round">
+      <path d="M103 189a168 168 0 0 1 304-4" stroke="url(#arc-upper)"/>
+      <path d="M89 297a173 173 0 0 0 253 106" stroke="url(#arc-lower)"/>
+    </g>
+
+    <ellipse cx="256" cy="358" rx="152" ry="26" fill="#080609" opacity=".29"/>
+    <g fill="url(#wheel)">
+      <use href="#wheel-shape"/>
+      <use href="#wheel-shape" transform="translate(512) scale(-1 1)"/>
+    </g>
+    <path
+      d="M151 235l18-47c8-20 23-31 45-32h84c22 1 37 12 45 32l18 47 20 16c12 9 18 20 18 37v28c0 12-8 21-20 21H133c-12 0-20-9-20-21v-28c0-17 6-28 18-37Z"
+      fill="url(#body)" stroke="url(#body-edge)" stroke-width="2.7" stroke-linejoin="round"/>
+
+    <path
+      d="M180 227l14-33c5-12 12-17 25-17h74c13 0 20 5 25 17l14 33c1 3-1 6-5 6H185c-4 0-6-3-5-6Z"
+      fill="url(#glass)"/>
+    <path d="M194 200c5-13 12-19 25-19h69l-29 13c-16 8-44 14-69 16Z" fill="url(#glass-reflection)"/>
+    <path d="M152 237h208l19 16c-38-6-79-8-123-8s-85 2-123 8Z" fill="url(#hood)"/>
+
+    <g fill="#382721">
+      <use href="#lamp-housing"/>
+      <use href="#lamp-housing" transform="translate(512) scale(-1 1)"/>
+    </g>
+    <g fill="url(#lamp)">
+      <use href="#lamp-line"/>
+      <use href="#lamp-line" transform="translate(512) scale(-1 1)"/>
+    </g>
+    <path d="M189 309h134c-5 10-13 17-25 17h-84c-12 0-20-7-25-17Z" fill="url(#intake)"/>
+    <path d="M224 316h64" stroke="#e8bc97" stroke-opacity=".49" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <rect x="1.65" y="1.65" width="508.7" height="508.7" rx="116.35" fill="none" stroke="url(#rim)" stroke-width="1.3"/>
+</svg>

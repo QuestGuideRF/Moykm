@@ -1,0 +1,7 @@
+DirectoryIndex disabled
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^index\.html$ ./ [R=302,L]
+</IfModule>
